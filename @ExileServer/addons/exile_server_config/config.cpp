@@ -12,7 +12,7 @@ class CfgPatches
 	class exile_server_config
 	{
 		requiredVersion = 0.1;
-		requiredAddons[] = {""};	 //checks players to have mod before they join so they can see zombies
+		requiredAddons[] = {};
 		units[] = {};
 		weapons[] = {};
 		magazines[] = {};
@@ -2255,13 +2255,13 @@ class CfgSettings
 		*/
 		class Frags
 		{
-			bambi = -500;				// Bambi slayers
+			bambi = 10;				// Bambi slayers
 			friendlyFire = -100;		// For party members
 			standard = 100;				// Normal kill
 			letItRain = 150;			// MG, also vehicle MGs
-			humiliation = 300;			// Axe
+			humiliation = 500;			// Axe
 			passenger = 400;			// Out of car/chopper/boat
-			roadKill = 500;				// :)
+			roadKill = 100;				// :)
 			bigBird = 600;				// Roadkill, but with chopper/plane
 			chuteGreaterChopper = 600; 	// Someone flies into chute and chopper/plane explodes 			
 		};
@@ -2370,7 +2370,9 @@ class CfgSettings
 		spawnZoneVehicles[] =
 		{
 			{5, "Exile_Bike_OldBike"},
-			{5, "Exile_Bike_MountainBike"}
+			{5, "Exile_Bike_MountainBike"},
+			{5, "Exile_Bike_QuadBike_Black"},
+			{5, "Exile_Bike_QuadBike_Blue"}
 		};
 	};
 
@@ -2382,7 +2384,7 @@ class CfgSettings
 		/**
 		 * Chance in % to spawn loot in a building
 		 */
-		spawnChancePerBuilding = 50;
+		spawnChancePerBuilding = 80;
 
 		/**
 		 * Chance in % to spawn loot per loot spot per building.
@@ -2414,7 +2416,7 @@ class CfgSettings
 		 * 50m  = Minimum
 		 * 200m = Maximum
 		 */
-		spawnRadius = 80;
+		spawnRadius = 100;
 
 		/**
 		* Define a de-spawn radius here. That is the radius where loot
@@ -2472,13 +2474,13 @@ class CfgSettings
 		* smaller the number more vehicles,
 		* you get the point
 		*/
-		vehiclesGridSize = 2200;
+		vehiclesGridSize = 2000;
 
 		/**
 		* Vehicle ammount per grid
 		* kinda self explanitory
 		*/
-		vehiclesGridAmount = 2;
+		vehiclesGridAmount = 3;
 
 		/**
 		* Creates global markers for vehicle spawn tweeking,

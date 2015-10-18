@@ -113,7 +113,7 @@ class CfgA3XAISettings {
 	side = east;
 	
 	//Number of online players required for maximum (or minimum) AI spawn chance. Affects Static, Dynamic, Random AI spawns. (Default: 10)	
-	playerCountThreshold = 10;
+	playerCountThreshold = 5;
 	
 	//1: Spawn chance multiplier scales upwards from value defined by chanceScalingThreshold to 1.00. 0: Spawn chance multiplier scales downwards from 1.00 to chanceScalingThreshold.
 	upwardsChanceScaling = 1;
@@ -122,19 +122,19 @@ class CfgA3XAISettings {
 	chanceScalingThreshold = 0.50;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_village = 2;
-	addAI_village = 4;
+	minAI_village = 1;
+	addAI_village = 2;
 	unitLevel_village = 0;
 	spawnChance_village = 0.40;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_city = 4;
+	minAI_city = 3;
 	addAI_city = 8;
 	unitLevel_city = 1;
 	spawnChance_city = 0.60;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_capitalCity = 7;
+	minAI_capitalCity = 5;
 	addAI_capitalCity = 12;
 	unitLevel_capitalCity = 1;
 	spawnChance_capitalCity = 0.70;
@@ -146,8 +146,8 @@ class CfgA3XAISettings {
 	spawnChance_remoteArea = 0.80;
 	
 	//(Static/Dynamic/Random Spawns) minAI: Minimum number of units. addAI: maximum number of additional units. unitLevel: Unit level (0-3)
-	minAI_wilderness = 3;
-	addAI_wilderness = 4;
+	minAI_wilderness = 1;
+	addAI_wilderness = 2;
 	unitLevel_wilderness = 1;
 	spawnChance_wilderness = 0.50;
 	
@@ -282,7 +282,7 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/		
 
 	//Global maximum number of active AI air vehicle patrols. Set at 0 to disable (Default: 0).							
-	maxAirPatrols = 2;	
+	maxAirPatrols = 3;	
 	
 	//Probability of spawning Level 0/1/2/3 AI air vehicle patrol spawns. Probabilities should add up to 1.00		
 	levelChancesAir[] = {0.00,0.50,0.35,0.15};
@@ -293,7 +293,6 @@ class CfgA3XAISettings {
 	
 	//Classnames of air vehicle types to use, with the maximum amount of each type to spawn.
 	airVehicleList[] = {
-		{"B_Heli_Light_01_armed_F",5},
 		{"B_Heli_Transport_01_F",5},
 		{"B_Heli_Transport_03_F",2}
 	};
@@ -312,11 +311,11 @@ class CfgA3XAISettings {
 	
 	//Cooldown time for AI paradrop deployment in seconds. (Default: 1800).
 	//Affects: Air vehicle patrols.
-	paradropCooldown = 900;
+	paradropCooldown = 300;
 	
 	//Number of infantry AI to paradrop if players are nearby when helicopter is investigating a waypoint, or if helicopter is reinforcing a dynamic AI spawn. Limited by number of cargo seats available in the vehicle. (Default: 3)
 	//Affects: Air vehicle patrols, air reinforcements.
-	paradropAmount = 6;
+	paradropAmount = 12;
 	
 	
 	/*	AI Land Vehicle patrol settings. These AI vehicles will randomly travel between different cities and towns.
@@ -327,14 +326,14 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/	
 
 	//Global maximum number of active AI land vehicle patrols. Set at 0 to disable (Default: 0).	
-	maxLandPatrols = 5;
+	maxLandPatrols = 8;
 	
 	//Probability of spawning Level 0/1/2/3 AI land vehicle spawns. Probabilities should add up to 1.00		
 	levelChancesLand[] = {0.00,0.50,0.35,0.15};
 	
 	//Set minimum and maximum wait time in seconds to respawn an AI vehicle patrol after vehicle is destroyed or disabled. (Default: Min 600, Max 900).
-	respawnLandMinTime = 600;
-	respawnLandMaxTime = 900;
+	respawnLandMinTime = 300;
+	respawnLandMaxTime = 600;
 	
 	//Classnames of land vehicle types to use, with the maximum amount of each type to spawn.
 	landVehicleList[] = {
@@ -375,13 +374,12 @@ class CfgA3XAISettings {
 	--------------------------------------------------------------------------------------------------------------------*/
 
 	//Maximum allowed number of simultaneous active reinforcements (Default: 5)
-	maxAirReinforcements = 5;
+	maxAirReinforcements = 8;
 	
 	//Air vehicles to use as reinforcement vehicles. Default: {"B_Heli_Transport_01_F","B_Heli_Light_01_armed_F"}
 	//Armed air vehicles will detect and engage players within reinforcement area. Unarmed air vehicles will deploy an AI paradrop group.
 	airReinforcementVehicles[] = {
-		"B_Heli_Transport_01_F",
-		"B_Heli_Light_01_armed_F"
+		"B_Heli_Transport_01_F"
 	};
 	
 	//Probability to spawn reinforcements for each AI level.
@@ -636,7 +634,7 @@ class CfgA3XAISettings {
 	respectBigBird = 600;
 	
 	//Respect bonus for collision kills by vehicle driver
-	respectRoadkill = 500;
+	respectRoadkill = 200;
 	
 	//Respect bonus for kills with vehicle weapons
 	respectLetItRain = 150;

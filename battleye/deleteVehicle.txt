@@ -1,3 +1,4 @@
 //new
-7 "" !"NVG_Target" !"Shot" !"Exile_Unit_Player"
-7 "" !"Exile_Construction_WoodDoorway_Preview"
+7 "" !"NVG_Target" !"Shot" !"Exile_Unit_Player" !="NVG_TargetC" !"Exile_Construction_WoodDoorway_Preview" !"Preview" !"?Preview" !"?NVG_Target" !="NVG_Target"
+7 "" !"NVG_Target"
+

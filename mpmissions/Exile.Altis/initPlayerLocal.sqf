@@ -4,9 +4,6 @@
 
 // Taken away for now
 //#include "initServer.sqf"
-#include "initServer.sqf"
-[] execVM "addons\playermarker.sqf";
-
 if (!hasInterface && !isServer) then
 {
     1 spawn

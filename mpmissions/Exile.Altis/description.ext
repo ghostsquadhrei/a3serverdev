@@ -80,8 +80,6 @@ enableDebugConsole = 0; // 2 = dangerous in MP
 // NO NO NO
 allowFunctionsRecompile = 0;
 
-
-
 #include "config.cpp"
 #include "infiSTAR_Exile_AdminMenu.hpp"
 #include "CfgRemoteExec.hpp"

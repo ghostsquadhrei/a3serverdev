@@ -29,7 +29,7 @@ DMS_Use_Map_Config = true;	// Whether or not to use config overwrites specific t
 	DMS_MissionTimeOut					= [900,1800]; 				// [Minimum,Maximum] time it will take for a mission to timeout | Default: 15-30 mins
 	/*General settings for dynamic missions*/
 
-	DMS_playerNearRadius				= 100;						// How close a player has to be to a mission in order to satisfy the "playerNear" mission requirement (can be customized per mission).
+	DMS_playerNearRadius				= 300;						// How close a player has to be to a mission in order to satisfy the "playerNear" mission requirement (can be customized per mission).
 
 	DMS_AI_KillPercent					= 100;						// The percent amount of AI that need to be killed for "killPercent" mission requirement (NOT IMPLEMENTED)
 
@@ -41,8 +41,8 @@ DMS_Use_Map_Config = true;	// Whether or not to use config overwrites specific t
 	DMS_MarkerPosRandomization			= false;					// Randomize the position of the circle marker of a mission
 	DMS_MarkerPosRandomRadius			= [25,100];					// Minimum/Maximum distance that the circle marker position will be randomized | Default: 0 meters to 200 meters
 	DMS_RandomMarkerBrush				= "Cross";					// See: https://community.bistudio.com/wiki/setMarkerBrush
-	DMS_MissionMarkerWinDot				= true;						// Keep the mission marker dot with a "win" message after mission is over
-	DMS_MissionMarkerLoseDot			= true;						// Keep the mission marker dot with a "lose" message after mission is over
+	DMS_MissionMarkerWinDot				= false;						// Keep the mission marker dot with a "win" message after mission is over
+	DMS_MissionMarkerLoseDot			= false;						// Keep the mission marker dot with a "lose" message after mission is over
 	DMS_MissionMarkerWinDotTime			= 30;						// How many seconds the "win" mission dot will remain on the map
 	DMS_MissionMarkerLoseDotTime		= 30;						// How many seconds the "lose" mission dot will remain on the map
 	DMS_MissionMarkerWinDotColor		= "ColorBlue";				// The color of the "win" marker dot
@@ -207,7 +207,7 @@ DMS_Use_Map_Config = true;	// Whether or not to use config overwrites specific t
 	DMS_ai_skill_moderate				= [["aimingAccuracy",0.60],["aimingShake",0.60],["aimingSpeed",0.60],["spotDistance",0.60],["spotTime",0.60],["courage",1.00],["reloadSpeed",1.00],["commanding",1.00],["general",0.60]];	// Moderate
 	DMS_ai_skill_difficult				= [["aimingAccuracy",0.70],["aimingShake",0.70],["aimingSpeed",0.70],["spotDistance",0.70],["spotTime",0.80],["courage",1.00],["reloadSpeed",1.00],["commanding",1.00],["general",0.70]]; 	// Difficult
 	DMS_ai_skill_hardcore				= [["aimingAccuracy",1.00],["aimingShake",1.00],["aimingSpeed",1.00],["spotDistance",1.00],["spotTime",1.00],["courage",1.00],["reloadSpeed",1.00],["commanding",1.00],["general",1.00]]; 	// Hardcore
-	DMS_ai_skill_random					= ["hardcore","difficult","difficult","difficult","moderate","moderate","moderate","moderate","easy","easy"];	// Skill frequencies for "random" AI skills | Default: 10% hardcore, 30% difficult, 40% moderate, and 20% easy
+	DMS_ai_skill_random					= ["hardcore","difficult","difficult","moderate","moderate","moderate","moderate","easy","easy","easy"];	// Skill frequencies for "random" AI skills | Default: 10% hardcore, 30% difficult, 40% moderate, and 20% easy
 	DMS_AI_WP_Radius_easy				= 20;						// Waypoint radius for "easy" AI
 	DMS_AI_WP_Radius_moderate			= 30;						// Waypoint radius for "moderate" AI
 	DMS_AI_WP_Radius_difficult			= 50;						// Waypoint radius for "difficult" AI
