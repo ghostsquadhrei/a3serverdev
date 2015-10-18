@@ -1,0 +1,5 @@
+//new
+3 "" !="exilexm8isonline" !="bis_fnc_selectrespawntemplate_respawned" !="holder_in_use" !"usable_ramp" !"can_copilot" !"cargo_offset" !"slots" !"load_offset" !"zload" !"can_outside" !"slots_num" !"default_mass" !="bis_fnc_objectvar_var" !"can_load" !"doors" !"attachedtruck" !"attachedpos" !"box_num" !"can_load" !"zload_cargo" !"box_r" !"box_l" 
+3 "ExileScore"
+3 "ExileMoney"
+
