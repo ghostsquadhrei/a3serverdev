@@ -1,0 +1,256 @@
+11.10.2015 12:11:31: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #30 "FullGhillie_lsh';_unit addVest 'V_PlateCarrierGL_mtp';_unit addBackpack 'B_Carryall_khk';_unit addItemToBackpack 'Exile_Item_Ins"
+11.10.2015 13:38:09: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #48 "line 1 "mpmissions\__CUR_MP.Altis\initPlayerLocal.sqf"
+
+
+
+[] execVM "custom\KillMessages.sqf";
+
+
+
+if (!hasInterface && !isServer"
+11.10.2015 13:52:23: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #48 "line 1 "mpmissions\__CUR_MP.Altis\initPlayerLocal.sqf"
+
+
+
+[] execVM "custom\KillMessages.sqf";
+
+
+
+if (!hasInterface && !isServer"
+11.10.2015 13:54:17: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #48 "line 1 "mpmissions\__CUR_MP.Altis\initPlayerLocal.sqf"
+
+
+
+[] execVM "custom\KillMessages.sqf";
+
+
+
+if (!hasInterface && !isServer"
+11.10.2015 14:09:00: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #48 "line 1 "mpmissions\__CUR_MP.Altis\initPlayerLocal.sqf"
+
+
+
+[] execVM "custom\KillMessages.sqf";
+
+
+
+if (!hasInterface && !isServer"
+11.10.2015 14:27:08: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #48 "line 1 "mpmissions\__CUR_MP.Altis\initPlayerLocal.sqf"
+
+
+
+[] execVM "custom\KillMessages.sqf";
+
+
+
+if (!hasInterface && !isServer"
+11.10.2015 15:07:48: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #57 "t","_fingers"];
+_signature = _this;
+disableSerialization;
+createDialog "RscExileKeypadScanDialog";
+true call ExileClient_gui_pos"
+11.10.2015 15:08:41: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #57 "t","_fingers"];
+_signature = _this;
+disableSerialization;
+createDialog "RscExileKeypadScanDialog";
+true call ExileClient_gui_pos"
+11.10.2015 15:09:44: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #57 "t","_fingers"];
+_signature = _this;
+disableSerialization;
+createDialog "RscExileKeypadScanDialog";
+true call ExileClient_gui_pos"
+11.10.2015 15:21:22: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #57 "t","_fingers"];
+_signature = _this;
+disableSerialization;
+createDialog "RscExileKeypadScanDialog";
+true call ExileClient_gui_pos"
+11.10.2015 16:38:54: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #30 " do {_unit addItemToVest '30Rnd_65x39_caseless_mag';};_unit addBackpack 'B_Carryall_cbr';_unit addItemToBackpack 'optic_Hamr';_u"
+13.10.2015 17:48:13: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #23 " "STR_chvd_title"} else {"View Distance Settings"};
+player addAction [_actionText, CHVD_fnc_openDialog, [], -99, false, true];
+p"
+13.10.2015 18:06:13: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #23 " "STR_chvd_title"} else {"View Distance Settings"};
+player addAction [_actionText, CHVD_fnc_openDialog, [], -99, false, true];
+p"
+13.10.2015 18:30:55: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #23 "Until {!(isNull (findDisplay 46))};
+
+tawvd_action = player addAction["<t color='#FF0000'>Settings</t>",TAWVD_fnc_openTAWVD,[],-9"
+13.10.2015 18:34:32: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #23 "Until {!(isNull (findDisplay 46))};
+
+tawvd_action = player addAction["<t color='#FF0000'>Settings</t>",TAWVD_fnc_openTAWVD,[],-9"
+13.10.2015 18:46:21: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #59 "me _fnc_scriptName;
+#line 1 "A3\functions_f\GUI\fn_initDisplay.sqf"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+private ["_mode","_params","_class"];
+
+with "
+13.10.2015 18:52:22: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #23 "Until {!(isNull (findDisplay 46))};
+
+tawvd_action = player addAction["<t color='#FF0000'>Settings</t>",TAWVD_fnc_openTAWVD,[],-9"
+13.10.2015 19:34:31: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #52 "init.sqf"
+if (!isDedicated) then {
+"VEMFChatMsg" addPublicVariableEventHandler {
+systemChat ((_this select 1) select 0);
+[
+[
+[(("
+13.10.2015 19:45:22: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #52 "init.sqf"
+if (!isDedicated) then {
+"VEMFChatMsg" addPublicVariableEventHandler {
+systemChat ((_this select 1) select 0);
+[
+[
+[(("
+13.10.2015 19:53:15: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #52 "init.sqf"
+if (!isDedicated) then {
+"VEMFChatMsg" addPublicVariableEventHandler {
+systemChat ((_this select 1) select 0);
+[
+[
+[(("
+13.10.2015 20:00:23: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #52 "init.sqf"
+if (!isDedicated) then {
+"VEMFChatMsg" addPublicVariableEventHandler {
+systemChat ((_this select 1) select 0);
+[
+[
+[(("
+13.10.2015 20:03:21: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #52 "init.sqf"
+if (!isDedicated) then {
+"VEMFChatMsg" addPublicVariableEventHandler {
+systemChat ((_this select 1) select 0);
+[
+[
+[(("
+13.10.2015 20:16:49: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #52 "init.sqf"
+if (!isDedicated) then {
+"VEMFChatMsg" addPublicVariableEventHandler {
+systemChat ((_this select 1) select 0);
+[
+[
+[(("
+13.10.2015 20:22:54: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #48 "nGlobal false; 
+}
+forEach _objects;
+
+if (isServer) then {
+[] ExecVM "\VEMF\init.sqf";
+};#line 7 "mpmissions\__CUR_MP.Altis\initP"
+13.10.2015 20:26:19: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #48 "nGlobal false; 
+}
+forEach _objects;
+
+if (isServer) then {
+[] ExecVM "\VEMF\init.sqf";
+};#line 7 "mpmissions\__CUR_MP.Altis\initP"
+13.10.2015 20:29:00: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #52 "init.sqf"
+if (!isDedicated) then {
+"VEMFChatMsg" addPublicVariableEventHandler {
+systemChat ((_this select 1) select 0);
+[
+[
+[(("
+13.10.2015 20:34:16: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #52 "init.sqf"
+if (!isDedicated) then {
+"VEMFChatMsg" addPublicVariableEventHandler {
+systemChat ((_this select 1) select 0);
+[
+[
+[(("
+13.10.2015 20:38:15: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #51 ""
+if (!isDedicated) then {
+"VEMFChatMsg" addPublicVariableEventHandler {
+systemChat ((_this select 1) select 0);
+[
+[
+[((_this se"
+13.10.2015 20:45:00: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #52 "init.sqf"
+if (!isDedicated) then {
+"VEMFChatMsg" addPublicVariableEventHandler {
+systemChat ((_this select 1) select 0);
+[
+[
+[(("
+13.10.2015 20:59:02: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #52 "init.sqf"
+if (!isDedicated) then {
+"VEMFChatMsg" addPublicVariableEventHandler {
+systemChat ((_this select 1) select 0);
+[
+[
+[(("
+13.10.2015 21:02:27: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #52 "init.sqf"
+if (!isDedicated) then {
+"VEMFChatMsg" addPublicVariableEventHandler {
+systemChat ((_this select 1) select 0);
+[
+[
+[(("
+13.10.2015 21:07:56: DhreiRack (92.138.151.87:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #52 "init.sqf"
+if (!isDedicated) then {
+"VEMFChatMsg" addPublicVariableEventHandler {
+systemChat ((_this select 1) select 0);
+[
+[
+[(("
+14.10.2015 20:09:57: DhreiRack (92.138.52.244:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #38 "", displayNull];
+
+_onlinePlayers = count (allPlayers - allMissionObjects "HeadlessClient_F");
+_leftHeader = _display displayCtrl"
+14.10.2015 20:19:12: DhreiRack (92.138.52.244:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #38 "", displayNull];
+
+_onlinePlayers = count (allPlayers - allMissionObjects "HeadlessClient_F");
+_leftHeader = _display displayCtrl"
+15.10.2015 19:28:03: DhreiRack (92.138.52.244:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #38 "", displayNull];
+
+_onlinePlayers = count (allPlayers - allMissionObjects "HeadlessClient_F");
+_leftHeader = _display displayCtrl"
+15.10.2015 19:40:35: DhreiRack (92.138.52.244:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #38 "", displayNull];
+
+_onlinePlayers = count (allPlayers - allMissionObjects "HeadlessClient_F");
+_leftHeader = _display displayCtrl"
+15.10.2015 19:44:43: DhreiRack (92.138.52.244:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #38 "", displayNull];
+
+_onlinePlayers = count (allPlayers - allMissionObjects "HeadlessClient_F");
+_leftHeader = _display displayCtrl"
+15.10.2015 19:58:45: DhreiRack (92.138.52.244:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #23 "Until {!(isNull (findDisplay 46))};
+
+tawvd_action = player addAction["<t color='#FF0000'>Settings</t>",TAWVD_fnc_openTAWVD,[],-9"
+16.10.2015 21:23:24: DhreiRack (92.138.52.244:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #23 " "STR_chvd_title"} else {"View Distance Settings"};
+player addAction [_actionText, CHVD_fnc_openDialog, [], -99, false, true];
+p"
+16.10.2015 21:28:06: DhreiRack (92.138.52.244:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #51 "xt, CHVD_fnc_openDialog, [], -99, false, true];
+player addEventHandler ["Respawn", format ["player addAction ['%1', CHVD_fnc_ope"
+16.10.2015 21:33:10: DhreiRack (92.138.52.244:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #51 "xt, CHVD_fnc_openDialog, [], -99, false, true];
+player addEventHandler ["Respawn", format ["player addAction ['%1', CHVD_fnc_ope"
+16.10.2015 21:33:39: (KYM) YanoxWTF (78.122.200.21:2304) b3c2de1608ce026697ae4af3c346662b - #51 "xt, CHVD_fnc_openDialog, [], -99, false, true];
+player addEventHandler ["Respawn", format ["player addAction ['%1', CHVD_fnc_ope"
+16.10.2015 21:37:03: (KYM) YanoxWTF (78.122.200.21:2304) b3c2de1608ce026697ae4af3c346662b - #51 "xt, CHVD_fnc_openDialog, [], -99, false, true];
+player addEventHandler ["Respawn", format ["player addAction ['%1', CHVD_fnc_ope"
+16.10.2015 21:38:28: (KYM) YanoxWTF (78.122.200.21:2304) b3c2de1608ce026697ae4af3c346662b - #51 "xt, CHVD_fnc_openDialog, [], -99, false, true];
+player addEventHandler ["Respawn", format ["player addAction ['%1', CHVD_fnc_ope"
+16.10.2015 21:40:58: (KYM) YanoxWTF (78.122.200.21:2304) b3c2de1608ce026697ae4af3c346662b - #51 "xt, CHVD_fnc_openDialog, [], -99, false, true];
+player addEventHandler ["Respawn", format ["player addAction ['%1', CHVD_fnc_ope"
+17.10.2015 13:41:03: DhreiRack (92.138.52.244:2304) 4200f5c0fa3ee7bb8c8059f6aac47c71 - #48 ";#line 7 "mpmissions\__CUR_MP.Altis\initPlayerLocal.sqf"
+
+[] execVM "addons\playermarker.sqf";
+
+if (!hasInterface && !isServer) "
+17.10.2015 13:48:59: John Sheppard (78.235.104.19:2304) 442e78b879f76a5b6eb1b99d2b455b86 - #48 ";#line 7 "mpmissions\__CUR_MP.Altis\initPlayerLocal.sqf"
+
+[] execVM "addons\playermarker.sqf";
+
+if (!hasInterface && !isServer) "
