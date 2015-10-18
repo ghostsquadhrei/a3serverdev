@@ -91,7 +91,7 @@ _startAsNormal =
 _adminUIDandAccess =
 [
 	[
-		['76561197994679825','76561198089647256','76561198116737593','76561198093619390'],	// Admins with UIDs in this Array have their Access defined in the array below.
+		['76561197994679825','76561198089647256','76561198116737593','76561198093619390','76561198061956677'],	// Admins with UIDs in this Array have their Access defined in the array below.
 		[
 			'Teleport On Map Click','Teleport - Target To Me','Teleport - Me To Target','Teleport In Facing Direction (10m steps)',
 			'spectating','AdminConsole','Delete Vehicle','FlyUp','ShowGear',
